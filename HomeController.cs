@@ -13,12 +13,12 @@ namespace WebApplication2.Controllers
             _logger = logger;
         }
  
-        public IActionResult details()
+        public IActionResult detailsOfAll()
         {
             return View();
         }
  
-        public IActionResult name()
+        public IActionResult fullName()
         {
             return View();
         }
